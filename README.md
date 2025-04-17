@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
 Ein modernes GUI-Dashboard für schnellen Zugriff auf Linux- und SQL-Befehle sowie Datentypen-Referenz.
+Das Originale Projekt wurde von mir umgeschrieben, um klassenbasiert zu sein. 
+Dies spart mehrere 100 Zeilen Code und erlaubt bessere Wartung.   
 
 ---
 

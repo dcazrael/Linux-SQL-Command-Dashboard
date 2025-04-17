@@ -28,7 +28,6 @@ class App(tk.Tk):
         self.main = Main(self)
         self.menu = Menu(self, self.main)
 
-
     @staticmethod
     def ttk_label(frame, text_str, anchor='w', font_size=12):
         ttk.Label(frame, text=text_str, font=('Segoe UI', font_size, 'bold'), style='Inverse.TLabel').pack(
@@ -105,7 +104,6 @@ class Main(ttk.Frame):
     def show_welcome_message(self, frame):
         self.clear_content_frame()
         App.ttk_label(frame, "Willkommen im Command Dashboard von xqi", 'w', 18)
-
         App.ttk_label(frame, "Wählen Sie eine Kategorie aus dem Menü links")
 
     def clear_content_frame(self):
